@@ -1,0 +1,56 @@
+.page-wrapper {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+#jokeText {
+  font-size: 24px;
+  transition: 3s;
+  margin-top: 30px;
+}
+
+body {
+  background-color: #1f2732;
+  color: #fff;
+}
+
+body,
+p,
+h1 {
+  font-family: "Open Sans";
+  font-size: 16px;
+  text-align: center;
+}
+
+h1 {
+  color: #ff497c;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+#button {
+  background-color: #ff497c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
